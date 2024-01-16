@@ -649,6 +649,127 @@ footer{
 
     }
 }
+ 
+@media screen and (min-width:600px) and (max-width:960px){
+    header,main{
+        max-width: 95%;
+    }
+    nav{
+        flex-direction: column-reverse;
+        justify-content: center;
+        gap: 30px;
+    }
+    ul{
+        gap: 20px;
+    }
+    li a{
+        font-size: 15px;
+    }
+    .world-title{
+        margin-left: 10px;
+        font-size: 25px;
+        display: flex;
+        align-items: center;
+    }
+    nav img{
+        width: 9%;
+    }
+    .banner{
+     height: 120vh;
+     margin-top: 10px;
+    }
+    .banner-title{
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .banner-description{
+        padding: 0 10px;
+        margin-bottom: 10px;
+    }
+    .banner-btn{
+        flex-direction: column;
+    }
+    .tours-container{
+      flex-direction: column;
+      gap: 20px;
+      
+    }
+    .tours-content,.tours-img{
+        width: 100%;
+    }
+    .tours-img img{
+        width: 100%;
+    }
+    
+    .destination-content{
+        width: 80%;
+    }
+    .img-container-one,.img-container-two,.img-container-three{
+        flex-direction: column;
+    }
+    .destination-img img{
+        width: 100%;
+    }
+    .quality-container{
+        flex-direction: column;
+    }
+    .quality-content{
+        width: 90%;
+    }
+    .hotels,.service,.best-price{
+        width: 80%;
+    }
+    .perfect-place-container{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .perfect-place-content,.perfect-place-img{
+        width: 100%;
+    }
+    .perfect-place-img img{
+        width: 100%;
+    }
+    .newsletter-container{
+        flex-direction: column;
+    }
+    .newsletter-sign-up,.newsletter-img{
+        width: 100%;
+    }
+
+    .newsletter-img img{
+        width: 100%;
+    }
+    .newsletter-sign-up{
+        padding: 10px 10px;
+    }
+    
+    .footer-container{
+        width: 80%;
+    }
+    .percentage{
+        width: 30%;
+        position: relative;
+        bottom: 100px;
+        padding: 10px;
+    }
+    .link{
+       font-size: 13px;
+    }
+    .percentage-description{
+        font-size: 16px;
+    }
+    .details{
+        height: 120vh;
+        justify-content: center;
+        align-items: end;
+    }
+    .details-content{
+      width: 90%;
+      margin: 20px;
+      padding: 10px;
+
+    }
+}
 
 
 

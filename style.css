@@ -3,8 +3,10 @@
     padding: 0;
 }
 /* fixed-styles */
+    body{
+        font-family: Mulish;
+    }
     header,main{
-    font-family: Mulish;
     max-width: calc(100% - 270px);
     margin-left: auto;
     margin-right: auto;

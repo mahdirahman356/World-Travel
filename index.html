@@ -8,13 +8,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <!-- header-nav-part -->
     <header>
       <nav>
-        <h3 class="nav-title">
+        <h3 class="world-title">
             <img src="Group 40071 (2).png" alt="">
            World<span class="color-orange"> Travel</span>
         </h3>
@@ -41,12 +44,15 @@
                 <input type="text" placeholder="Where go">
                 <input type="text" placeholder="When">
                 <input type="text" placeholder="Select Type">
-                <button class="search-btn">Find Now</button>
+                <button class="search-btn">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                  Find Now
+                </button>
             </div>
          </div>
         </section>
     </header>
-
+       <main>
       <!-- section-tours -->
       <section class="tours-container">
         <div class="tours-content">
@@ -174,5 +180,57 @@
             <img src="Group 40089.png" alt="">
           </div>
        </section>
+
+       <!-- section-newsletter -->
+       <section class="newsletter-container">
+         <div class="newsletter-sign-up">
+           <h4 class="newsletter-title">
+            Newsletter
+           </h4>
+           <p class="newsletter-description">
+            Get your daily dose of travel news & tips. Sign up today!
+           </p>
+           <div class="newsletter-input">
+           <input type="text" placeholder="Enter your name">
+           <input type="email" placeholder="Enter your email">
+           <button class="primary-btn">Subscribe</button>
+          </div>
+         </div>
+         <div class="newsletter-img">
+            <img src="Rectangle 8 (1).png" alt="">
+            <div class="percentage">
+              <p class="link">
+                Travel.com
+              </p>
+              <h3 class="percentage-description">
+                Save up to 70%
+              </h3>
+            </div>
+         </div>
+       </section>
+      </main>
+       <!-- footer-styles -->
+       <footer>
+        <div class="footer-container">
+          <h3 class="world-title">
+            <img src="Group 40071 (2).png" alt="">
+           World<span class="color-orange"> Travel</span>
+        </h3>
+        <p class="footer-description">
+          Lorem ipsum dolor sit amet consectetur. Nulla sit viverra morbi vitae blandit orci potenti vulputate. Leo erat maecenas vitae elementum ultricies nullam. 
+        </p>
+        <div class="icon">
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-github"></i>
+        </div>
+        </div>
+        <div class="reserved">
+          <p class="reserved-description">
+            2017, All Rights Reserved.
+          </p>
+        </div>
+       </footer>
 </body>
 </html>

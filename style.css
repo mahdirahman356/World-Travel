@@ -3,7 +3,7 @@
     padding: 0;
 }
 /* fixed-styles */
-body{
+    header,main{
     font-family: Mulish;
     max-width: calc(100% - 270px);
     margin-left: auto;
@@ -37,7 +37,7 @@ ul li, a{
 nav img{
     width: 13%;
 }
-.nav-title{
+.world-title{
     display: flex;
     align-items: center;
     color: #131318;
@@ -53,8 +53,6 @@ nav img{
 .banner{
     height: 80vh;
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 50px;
     border-radius: 16px;
     background-image: url(Group\ 13\ \(1\)\ \(1\).png);
@@ -212,7 +210,7 @@ nav img{
     display: flex;
     gap: 20px;
 }
-/* section-quality */
+/* section-quality-styles */
 
 .quality-content{
     width: 50%;
@@ -279,7 +277,7 @@ nav img{
     line-height: 26px;
     margin-top: 20px;
 }
-/* section-perfect-place */
+/* section-perfect-place-styles */
 .perfect-place-container{
   margin-top: 100px;
   display: flex;
@@ -288,7 +286,7 @@ nav img{
   gap: 70px;
 }
 .perfect-place-content,.perfect-place-img{
-    width: 44%;
+    width: 50%;
 }
 .perfect-place-title{
     color: #131318;
@@ -317,11 +315,142 @@ ol li{
     margin-bottom: 15px;
 }
 
+/* section-newsletter-styles */
+.newsletter-container{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+.newsletter-sign-up,.newsletter-img{
+    width: 60%;
+}
+.newsletter-sign-up{
+    padding: 50px 50px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+.newsletter-title{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.newsletter-description{
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(19, 19, 24, 0.10);;
+
+}
+.newsletter-input{
+    display: flex;
+    flex-direction: column;
+}
+.newsletter-input input{
+    margin-top: 10px;
+    color: rgba(19, 19, 24, 0.30);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 8px;
+    border: 0;
+    background: rgba(19, 19, 24, 0.05);
+    padding: 20px 30px;
+    margin-top: 20px;
+}
+.newsletter-input button{
+    margin-top: 20px;
+}
+.percentage{
+    width: 45%;
+    margin-left: auto;
+    position: relative;
+    bottom: 210px;
+    right: 15px;
+    transform: rotate(-20deg);
+    padding: 30px;
+    border-radius: 16px;
+    background: #FF5400;
+}
+.link{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 400;
+}
+.percentage-description{
+    color: #FFF;
+    font-family: Mulish;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+/* footer-styles */
+
+footer{
+    margin-top: 100px;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: auto;
+    background: rgba(19, 19, 24, 0.05);
+}
+.footer-container{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-description{
+    color: #5A5A5D;
+    margin-top: 20px;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; 
+}
+.icon i{
+    font-size: 28px;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+.reserved{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 60px;
+    padding-bottom: 110px;
+    text-align: center;
+    border-top:1px solid rgba(19, 19, 24, 0.10);
+}
+.reserved-description{
+    color: #131318;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+
 
 /* responsive-styles */
 
 @media screen and (max-width:600px){
-    body{
+    header,main{
         max-width: 95%;
     }
     nav{
@@ -335,7 +464,7 @@ ol li{
     li a{
         font-size: 15px;
     }
-    .nav-title{
+    .world-title{
         margin-left: 10px;
         font-size: 25px;
         display: flex;
@@ -399,7 +528,36 @@ ol li{
     .perfect-place-img img{
         width: 100%;
     }
+    .newsletter-container{
+        flex-direction: column;
+    }
+    .newsletter-sign-up,.newsletter-img{
+        width: 100%;
+    }
+
+    .newsletter-img img{
+        width: 100%;
+    }
+    .newsletter-sign-up{
+        padding: 10px 10px;
+    }
     
+    .footer-container{
+        margin-top: 0px;
+        width: 80%;
+    }
+    .percentage{
+        width: 30%;
+        position: relative;
+        bottom: 100px;
+        padding: 10px;
+    }
+    .link{
+       font-size: 13px;
+    }
+    .percentage-description{
+        font-size: 16px;
+    }
 }
 
 

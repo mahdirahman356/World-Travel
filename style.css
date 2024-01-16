@@ -277,6 +277,85 @@ nav img{
     line-height: 26px;
     margin-top: 20px;
 }
+
+/* section-deals-styles */
+.deals{
+    margin-top: 100px;
+}
+.deals-content{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.deals-title{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+}
+.deals-description{
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; 
+}
+.details{
+    margin-top: 50px;
+    height: 80vh;
+    display: flex;
+    justify-content: end;
+    background-image: url(Group\ 39.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 18px; 
+}
+.changes{
+    display: flex;
+    justify-content: start;
+}
+.details-content{
+    width: 40%;
+    margin: 56px;
+    padding: 50px;
+    padding-right: 100px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+}
+span{
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+}
+.details-title{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 20px;
+}
+.details-description{
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 20px;
+}
+.price{
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 /* section-perfect-place-styles */
 .perfect-place-container{
   margin-top: 100px;
@@ -322,6 +401,7 @@ ol li{
     align-items: center;
     justify-content: space-between;
     gap: 30px;
+    position: relative;
 }
 .newsletter-sign-up,.newsletter-img{
     width: 60%;
@@ -366,12 +446,13 @@ ol li{
 }
 .newsletter-input button{
     margin-top: 20px;
+    margin-bottom: 10px;
 }
 .percentage{
-    width: 45%;
+    width: 25%;
     margin-left: auto;
-    position: relative;
-    bottom: 210px;
+    position: absolute;
+    bottom: 75px;
     right: 15px;
     transform: rotate(-20deg);
     padding: 30px;
@@ -543,7 +624,6 @@ footer{
     }
     
     .footer-container{
-        margin-top: 0px;
         width: 80%;
     }
     .percentage{
@@ -557,6 +637,16 @@ footer{
     }
     .percentage-description{
         font-size: 16px;
+    }
+    .details{
+        justify-content: center;
+        align-items: end;
+    }
+    .details-content{
+      width: 90%;
+      margin: 20px;
+      padding: 10px;
+
     }
 }
 
